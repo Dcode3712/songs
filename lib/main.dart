@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:songs/DatePicker_TimePicker.dart';
 import 'package:songs/Model.dart';
 
 import 'AllMusic.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: splash(),
+    // home: splash(),
+    home: dateandtimepicker(),
   ));
 }
 
